@@ -17,7 +17,7 @@ Amazon LinuxのDockerコンテナ上で、PythonのAWS Lambda関数をビルド�
 First, you need to login AWS's docker registry. Usually, you need to do it ONCE because the cached image will be used.
 
 ```sh
-$(aws ecr get-login --region us-west-2 --registry-ids 137112412989)
+$(aws ecr get-login --region ap-northeast-1 --registry-ids 137112412989)
 ```
 
 Next, run docker-compose, then you will get `build.zip` artifact.
